@@ -1,19 +1,22 @@
+<!-- displaying articles -->
 {{> post-info post}}
 
+<!-- displaying form and comments-->
+<!-- only display if logged in -->
 {{#if loggedIn}}
-{{#if comments.length}}
-{{> comments post.comments}}
-{{/if}}
-<section class="card">
 <form class="comment-form">
   <div>
-    <label for="comment-content">Comment</label>
-    <textarea class="card-input-textarea" id="comment-body" name="comment-body"></textarea>
+    <textarea class="ml-5" name="comment-body"></textarea>
   </div>
-  <button class="card-button" type="submit" class="btn" id="comment-btn">Create</button>
+
+  <div>
+    <button class="button is-warning ml-5 mb-5" type="submit">add comment</button>
+  </div>
+  
 </form>
-</section>
 {{/if}}
+
+{{> comments post.comments}}
 
 {{#if loggedIn}}
 <script src="/javascript/comment.js"></script>

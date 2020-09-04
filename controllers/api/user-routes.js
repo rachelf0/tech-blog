@@ -27,6 +27,27 @@ router.post('/', withAuth, (req, res) => {
         });
 });
 
+  // LOGIN
+  router.post('/login', (req, res) => {
+    User.findOne({
+      where: {
+        email: req.body.email
+      }
+    }).then(dbUserData => {
+      if (!dbUserData) {
+        res.status(400).json({ message: 'No user with that email address!' });
+        return;
+      }
+  
+      const validPassword = dbUserData.checkPassword(req.body.password);
+  
+      if (!validPassword) {
+        res.status(400).json({ message: 'Incorrect password!' });
+        return;
+      }
+    })
+  });
+
 //DELETE A COMMENT
 router.delete('/:id', withAuth, (req, res) => {
     Comment.destroy({
