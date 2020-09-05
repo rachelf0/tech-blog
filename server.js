@@ -1,4 +1,3 @@
-// require paths
 const express = require('express');
 const routes = require('./controllers/');
 const path = require('path');
@@ -28,7 +27,6 @@ const PORT = process.env.PORT || 3001;
 //middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-// add in css stylesheet connection
 app.use(express.static(path.join(__dirname, 'public')));
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
