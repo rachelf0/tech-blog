@@ -59,19 +59,36 @@ THEN I am automatically signed out of the site
   - [Questions](#questions)
 
 ## Installation
-'npm init'
-'npm install sequelize'
-'npm install mysql2'
-'npm install dotenv'
+`npm init`
+
+`npm install sequelize`
+
+`npm install mysql2`
+
+`npm install dotenv`
+
+`npm install express`
+
+`npm install express-handlebars`
+
+`npm install express-session`
+
+`npm install connect-session-sequelize`
+
+`npm install bcrypt`
 
 ## Usage
 Run the following command at the root of your project.
-'mysql -u root -p'
+`mysql -u root -p`
+
 Enter your password when prompted.
-'source db/schema.sql'
-'quit'
-'npm run seed'
-'npm start'
+Run `source db/schema.sql`
+
+Run `quit`
+
+Run `npm start`
+
+Pull up your browser and view the page at `localhost:3001`
 
 ## Testing
 No testing is set up at this moment. Tested externally through Insomnia Core.
