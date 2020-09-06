@@ -10,6 +10,9 @@ A mysql database and CMS-style Blog built using Model View Controller (MVC) para
 <br>
 <img width="1440" alt="ScreenShot2" src="https://user-images.githubusercontent.com/65192910/92327770-b46f4700-f021-11ea-9897-e86ba5d6b180.png">
 
+## Deployed Application
+https://secure-lowlands-66841.herokuapp.com/
+
 ## User Story
 AS A developer who writes about tech
 I WANT a CMS-style blog site
@@ -53,6 +56,7 @@ THEN I am automatically signed out of the site
 ## Table of Contents
   - [Description](#description)
   - [Screenshots](#screenshots)
+  - [Deployed Application](#deployed-application)
   - [User Story](#user-story)
   - [Acceptance Criteria](#acceptance-criteria)
   - [Table of Contents](#table-of-contents)
