@@ -4,7 +4,11 @@
 A mysql database and CMS-style Blog built using Model View Controller (MVC) paradigm. Built using MySQL2, Express, Sequelize, Bulma, Handlebars and dotenv.
 
 ## Screenshots
-
+<img width="1440" alt="ScreenShot1" src="https://user-images.githubusercontent.com/65192910/92327767-b20ced00-f021-11ea-98c9-68fd545f142d.png">
+<br>
+<br>
+<br>
+<img width="1440" alt="ScreenShot2" src="https://user-images.githubusercontent.com/65192910/92327770-b46f4700-f021-11ea-9897-e86ba5d6b180.png">
 
 ## User Story
 AS A developer who writes about tech
@@ -99,4 +103,4 @@ Rachel Fritz
 ## Questions
  - Find me on GitHub: [rachelf0] (https://github.com/rachelf0) 
   - If you have any questions, please email me at: rachelfritz0@gmail.com
-  - This README was generated with ❤️ by (https://github.com/rachelf0/ecommerce)
+  - This README was generated with ❤️ by (https://github.com/rachelf0/tech-blog)
